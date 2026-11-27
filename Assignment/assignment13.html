@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 13: Timetable</title>
+</head>
+<body>
+
+    <!-- Create a table with a border -->
+    <table border="1">
+        
+        <!-- Caption sets the title above the table -->
+        <caption><b>Weekly Timetable</b></caption>
+
+        <!-- First Row: Table Headers -->
+        <tr>
+            <th>Day</th>
+            <th>9-10</th>
+            <th>10-11</th>
+            <th>11-12</th>
+        </tr>
+
+        <!-- Second Row: Monday's schedule -->
+        <tr>
+            <td>Mon</td>
+            <td>Maths</td>
+            <td>HTML</td>
+            <!-- rowspan="2" merges this cell vertically across Monday and Tuesday -->
+            <td rowspan="2">Web Lab</td>
+        </tr>
+
+        <!-- Third Row: Tuesday's schedule -->
+        <tr>
+            <td>Tue</td>
+            <td>DBMS</td>
+            <td>OS</td>
+            <!-- The 4th column is skipped here because it is covered by "Web Lab" above -->
+        </tr>
+
+        <!-- Fourth Row: Wednesday's schedule -->
+        <tr>
+            <td>Wed</td>
+            <!-- colspan="3" merges this cell horizontally across all three time slots -->
+            <td colspan="3" align="center">Seminar</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+</body>
+</html>
