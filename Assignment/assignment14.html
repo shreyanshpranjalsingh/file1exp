@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Nested and Responsive Tables</title>
+</head>
+<body>
+     <!-- Outer (Main) Table using pure HTML attributes for border, spacing, and alignment -->
+    <table border="1" cellspacing="0" cellpadding="8" style="text-align: center;">
+      
+      <!-- Main Table Header Row -->
+      <tr>
+        <th>Day</th>
+        <th>Lab Batches</th>
+        <th>Faculty</th>
+        <th>Room</th>
+        <th>Time</th>
+      </tr>
+
+      <!-- Main Table Data Row -->
+      <tr>
+        <td>Friday</td>
+        
+        <!-- Table Data cell containing the Nested Table -->
+        <td>
+          <!-- Inner (Nested) Table -->
+          <table border="1" cellspacing="0" cellpadding="6" style="text-align: center;">
+            <!-- Nested Table Header -->
+            <tr>
+              <th>Batch</th>
+              <th>System</th>
+            </tr>
+            <!-- Nested Table Row 1 -->
+            <tr>
+              <td>A1</td>
+              <td>PC 1-20</td>
+            </tr>
+            <!-- Nested Table Row 2 -->
+            <tr>
+              <td>A2</td>
+              <td>PC 21-40</td>
+            </tr>
+          </table>
+          <!-- End of Nested Table -->
+        </td>
+
+        <td>Dr. Sharma</td>
+        <td>Lab 2</td>
+        <td>2-4 PM</td>
+      </tr>
+
+    </table>
+    <!-- End of Main Table -->
+
+  </div>
+
+</body>
+</html>
